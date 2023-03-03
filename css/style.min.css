@@ -34,7 +34,7 @@ h1,
 }
 
 a {
-  color: hsl(312, 100%, 50%);
+  color: #AE0601;
   transition: all 0.3s ease-in-out;
 }
 
@@ -205,18 +205,18 @@ label div:last-child {
   bottom: 0;
   left: 0;
   right: 0;
-  background: hsl(312, 100%, 50%);
+  background: #AE0601;
   /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
     hsl(240, 50%, 40%),
-    hsl(312, 100%, 50%)
+    #AE0601
   );
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
     hsl(240, 50%, 40%),
-    hsl(312, 100%, 50%)
+    #AE0601
   );
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
@@ -250,18 +250,18 @@ label div:last-child {
   bottom: 0;
   left: 0;
   right: 0;
-  background: hsl(312, 100%, 50%);
+  background: #AE0601;
   /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
     hsl(240, 50%, 40%),
-    hsl(312, 100%, 50%)
+    #AE0601
   );
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
     hsl(240, 50%, 40%),
-    hsl(312, 100%, 50%)
+    #AE0601
   );
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
@@ -293,8 +293,8 @@ label div:last-child {
 
 .btn-primary {
   display: inline-block;
-  background-color: hsl(312, 100%, 50%);
-  border-color: hsl(312, 100%, 50%);
+  background-color: #AE0601;
+  border-color: #AE0601;
   color: hsl(0, 0%, 100%);
 }
 
@@ -314,7 +314,7 @@ label div:last-child {
 .btn-outline-primary:hover {
   background-color: hsl(240, 50%, 40%);
   border-color: hsl(240, 50%, 40%);
-  color: hsl(0, 0%, 100%);
+  color: #AE0601;
 }
 
 .btn-shadow {
@@ -326,7 +326,7 @@ label div:last-child {
 }
 
 .btn-link {
-  color: hsl(312, 100%, 50%);
+  color: #AE0601;
 }
 
 /*=====  End of BUTTON  ======*/
@@ -340,12 +340,12 @@ label div:last-child {
   background: -webkit-linear-gradient(
     to right,
     hsl(260, 100%, 44%),
-    hsl(272, 76%, 53%)
+    #AE0601
   );
   background: linear-gradient(
     to right,
     hsl(260, 100%, 44%),
-    hsl(272, 76%, 53%)
+    #AE0601
   );
   transform-origin: 50% 150% 0;
   position: absolute;
@@ -361,12 +361,12 @@ label div:last-child {
   background: -webkit-linear-gradient(
     to right,
     hsl(260, 100%, 44%),
-    hsl(272, 76%, 53%)
+    #AE0601
   );
   background: linear-gradient(
     to right,
     hsl(260, 100%, 44%),
-    hsl(272, 76%, 53%)
+    #AE0601
   );
   transform-origin: 65% 100% 0;
   position: absolute;
@@ -934,7 +934,7 @@ label div:last-child {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-image: linear-gradient(45deg, #00aeff, #a68eff);
+  background-image: linear-gradient(45deg, #00aeff, #AE0601);
   border-radius: 10px;
   -webkit-box-shadow: hsla(0, 0%, 0%, 0.122) 0 3px 13px 1px;
   box-shadow: hsla(0, 0%, 0%, 0.122) 0 3px 13px 1px;
@@ -945,7 +945,7 @@ label div:last-child {
 .back-to-top {
   position: fixed;
   display: none;
-  background: linear-gradient(45deg, #00aeff, #a68eff);
+  background: linear-gradient(45deg, #00aeff, #AE0601);
   color: #fff;
   width: 44px;
   height: 44px;
@@ -977,13 +977,13 @@ label div:last-child {
     background: -webkit-linear-gradient(
       to right,
       hsl(240, 50%, 40%),
-      hsl(312, 100%, 50%)
+      #AE0601
     );
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(
       to right,
       hsl(240, hsl(312, 100%, 50%)),
-      hsl(312, 100%, 50%)
+      #AE0601
     );
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     z-index: 11;
@@ -1011,7 +1011,7 @@ label div:last-child {
     background: linear-gradient(
       to right,
       hsl(240, 50%, 40%),
-      hsl(312, 100%, 50%)
+      #AE0601
     );
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     z-index: 11;
@@ -1037,13 +1037,13 @@ label div:last-child {
     background: -webkit-linear-gradient(
       to right,
       hsl(240, 50%, 40%),
-      hsl(312, 100%, 50%)
+      #AE0601
     );
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(
       to right,
       hsl(240, 50%, 40%),
-      hsl(312, 100%, 50%)
+      #AE0601
     );
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     z-index: 11;
@@ -1083,13 +1083,13 @@ label div:last-child {
   }
   .navbar-nav {
     flex-direction: column !important;
-    padding-left: 94% !important;
+    padding-left: 89% !important;
   }
 }
 @media (max-width: 425px) {
   .navbar-nav {
     flex-direction: column !important;
-    padding-left: 85% !important;
+    padding-left: 75% !important;
   }
 }
 /*=====  End of RESPONSIVE  ======*/
